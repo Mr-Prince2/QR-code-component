@@ -59,3 +59,36 @@
     font-weight: 400;
     color: hsl(216, 15%, 48%);
 }
+
+
+/* 📱 Mobile Responsive Adjustments */
+@media (max-width: 480px) {
+  .main {
+    padding: 1.5rem;
+  }
+
+  .container {
+    padding: 2rem;
+  }
+
+  .card {
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+
+  .card .img {
+    padding: 10px;
+  }
+
+  .head-para {
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .sec-para {
+    padding: 10px;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+}
